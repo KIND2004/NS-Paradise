@@ -1,0 +1,149 @@
+@font-face {
+    font-family: "Quicksand";
+    src: url("Fonts/QUICKSAND.TTF");
+}
+
+@font-face {
+    font-family: "Honey Script";
+    src: url("Fonts/HONEYSCRIPT-LIGHT.TTF");
+}
+
+* {
+    font-family: "Quicksand";
+}
+
+.logo {
+    height: 120px;
+    background-image: url("Resources/nslogo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.title1 {
+    font-family: "Honey Script";
+    text-align: center;
+    color: rgb(49, 49, 245);
+}
+
+.link1 {
+    text-decoration: none;
+}
+
+.cart {
+    background-image: url("Resources/cartico.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.profile {
+    height: 30px;
+    background-image: url("Resources/profile.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.hrbreak {
+    border: silver 3px solid;
+}
+
+.drop {
+    text-align: end;
+}
+
+.carticon {
+    height: 30px;
+    background-image: url("resources/cartico.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.h {
+    font-size: 20px;
+}
+
+.h:hover {
+    background-color: blue;
+}
+
+.search {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.s_show {
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.brands {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.see_all {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.brands:hover {
+    text-decoration: underline;
+}
+
+.see_all:hover {
+    text-decoration: underline;
+}
+
+.description {
+    background-color: aliceblue;
+}
+
+.img-hgt {
+    height: 30vh;
+}
+
+.emptyview {
+    background-image: url("Resources/watchlistEmptyView.svg");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.emptycart {
+    background-image: url("Resources/emptycart.svg");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.close:hover {
+    cursor: pointer;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: blue;
+    color: white;
+    border-radius: 100%;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 100%;
+}
